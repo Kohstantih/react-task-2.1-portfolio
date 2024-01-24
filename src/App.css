@@ -1,0 +1,49 @@
+#root {
+  width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.categories-list {
+  display: flex;
+
+  margin-bottom: 20px;
+}
+
+.category {
+  border: 1px solid black;
+
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.category-active {
+  background-color: black;
+  color: white;
+}
+
+.project-list {
+  -moz-columns: auto 3;
+  columns: auto 3;
+}
+
+.project-item {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.project-img {
+  width: 100%;
+}
